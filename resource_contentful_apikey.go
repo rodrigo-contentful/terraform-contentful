@@ -1,8 +1,8 @@
 package main
 
 import (
+	contentful "github.com/contentful-labs/contentful-go"
 	"github.com/hashicorp/terraform/helper/schema"
-	contentful "github.com/tolgaakyuz/contentful-go"
 )
 
 func resourceContentfulAPIKey() *schema.Resource {
